@@ -25,7 +25,7 @@ Java 8 o superior.
    
    ```bash
    git clone https://https://github.com/cherrycita-dev/JuegoAdivinanzaJava2
-      
+   
 2. Abrir el Proyecto: Abre el archivo Main.java en tu IDE o editor preferido.
 
 3. Compilar el Programa: Si estás utilizando un terminal, navega a la carpeta del proyecto y ejecuta el siguiente comando para compilar el código:
@@ -44,14 +44,17 @@ javac Main.java
 ## Capturas de Pantalla
 A continuación se muestran algunas capturas de pantalla del juego en funcionamiento:
 
-Descripción: Pantalla inicial con la bienvenida y el número de intentos disponibles.
-<img src "Assets P3/menu.jpg" alt="" width="300>
+**Descripción:** Pantalla inicial con la bienvenida y el número de intentos disponibles. <br><br>
+<img src="Assets P3/menu.jpg" alt="" width="650"> 
 
-Descripción: Pistas proporcionadas al jugador después de cada intento.
-<img src "Assets P3/pistas.jpg" alt="" width="300>
+**Descripción:** Pistas proporcionadas al jugador después de cada intento. <br><br>
+<img src="Assets P3/pistas.jpg" alt="" width="650"> 
 
-Descripción: Mensaje de felicitaciones cuando se adivina el número.
-<img src "Assets P3/felicidades.jpg" alt="" width="300>
+**Descripción:** Mensaje de felicitaciones cuando se adivina el número. <br><br>
+<img src="Assets P3/felicidades.jpg" alt="" width="650"> 
+
+**Descripción:** Mensaje de derrota cuando se termina el numero de intentos. <br><br>
+<img src="Assets P3/Derrota.PNG" alt="" width="650"> 
 
 ## Tecnologías Utilizadas
 - Lenguaje: [Java]  
@@ -59,9 +62,17 @@ Descripción: Mensaje de felicitaciones cuando se adivina el número.
 - Microsoft Planner para la gestión de tareas.  
 
 
+Puedes acceder a nuestro tablero en **Microsoft Planner** en el siguiente enlace:  
+🔗 [Microsoft Planner](https://planner.cloud.microsoft/webui/v1/plan/72T3JQdF1kqMmsQ1cJW7PmQAGrNg?tid=f94bf4d9-8097-4794-adf6-a5466ca28563)
 
-Planner https://planner.cloud.microsoft/webui/v1/plan/72T3JQdF1kqMmsQ1cJW7PmQAGrNg?tid=f94bf4d9-8097-4794-adf6-a5466ca28563
+## Autores
+Desarrollado por 
 
+Carranza Mercado Jesus Eduardo  
+Gonzalez Pérez Monserrat  
+Pérez Méndez Nancy Esmeralda  
+Valencia Hernandez Kevin Guadalupe  
+Zamudio Lopez Leonardo
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Puedes usar, modificar y distribuir este código de acuerdo con los términos de la licencia.
