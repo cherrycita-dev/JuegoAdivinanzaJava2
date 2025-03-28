@@ -21,8 +21,7 @@ public class Main {
     }
 
     private static int generarNumeroSecreto(Random random) {
-        // Método vacío
-        return 0;
+        return random.nextInt(100) + 1;//GENERA UN NÚMERO ENTRE 1 Y 100
     }
 
     private static void mostrarMensajeBienvenida(int intentosMaximos) {
