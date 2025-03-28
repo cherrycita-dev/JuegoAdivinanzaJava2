@@ -58,6 +58,10 @@ public class Main {
     }
 
     private static void darPista(int intento, int numeroSecreto) {
-        // pendiente
+        if (intento < numeroSecreto) {
+            System.out.println("El número es mayor.");
+        } else {
+            System.out.println("El número es menor.");
         }
     }
+}
