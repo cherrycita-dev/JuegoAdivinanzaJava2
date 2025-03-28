@@ -44,17 +44,21 @@ javac Main.java
 ## Capturas de Pantalla
 A continuación se muestran algunas capturas de pantalla del juego en funcionamiento:
 
-**Descripción:** Pantalla inicial con la bienvenida y el número de intentos disponibles. <br><br>
+**Descripción:** Pantalla inicial con la bienvenida y el número de intentos disponibles. <br>
+
 <img src="Assets P3/menu.jpg" alt="" width="650"> 
 
-**Descripción:** Pistas proporcionadas al jugador después de cada intento. <br><br>
-<img src="Assets P3/pistas.jpg" alt="" width="650"> 
+**Descripción:** Pistas proporcionadas al jugador después de cada intento. <br>
 
-**Descripción:** Mensaje de felicitaciones cuando se adivina el número. <br><br>
-<img src="Assets P3/felicidades.jpg" alt="" width="650"> 
+<img src="Assets P3/pistas.jpg" alt="" width="600"> 
 
-**Descripción:** Mensaje de derrota cuando se termina el numero de intentos. <br><br>
-<img src="Assets P3/Derrota.PNG" alt="" width="650"> 
+**Descripción:** Mensaje de felicitaciones cuando se adivina el número. <br>
+
+<img src="Assets P3/felicidades.jpg" alt="" width="550"> 
+
+**Descripción:** Mensaje de derrota cuando se termina el numero de intentos. <br>
+
+<img src="Assets P3/Derrota.PNG" alt="" width="550"> 
 
 ## Tecnologías Utilizadas
 - Lenguaje: [Java]  
