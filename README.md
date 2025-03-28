@@ -24,7 +24,7 @@ Java 8 o superior.
    Si no tienes el proyecto localmente, clónalo con el siguiente comando:
    
    ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+   git clone https://https://github.com/cherrycita-dev/JuegoAdivinanzaJava2
       
 2. Abrir el Proyecto: Abre el archivo Main.java en tu IDE o editor preferido.
 
@@ -45,8 +45,13 @@ javac Main.java
 A continuación se muestran algunas capturas de pantalla del juego en funcionamiento:
 
 Descripción: Pantalla inicial con la bienvenida y el número de intentos disponibles.
+<img src "Assets P3/menu.jpg" alt="" width="300>
 
 Descripción: Pistas proporcionadas al jugador después de cada intento.
+<img src "Assets P3/pistas.jpg" alt="" width="300>
+
+Descripción: Mensaje de felicitaciones cuando se adivina el número.
+<img src "Assets P3/felicidades.jpg" alt="" width="300>
 
 ## Tecnologías Utilizadas
 - Lenguaje: [Java]  
