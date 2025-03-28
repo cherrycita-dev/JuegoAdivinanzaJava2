@@ -30,14 +30,14 @@ Java 8 o superior.
 
 3. Compilar el Programa: Si estás utilizando un terminal, navega a la carpeta del proyecto y ejecuta el siguiente comando para compilar el código:
 
-```bash
-javac Main.java
-```
+   ```bash
+   javac Main.java
+   ```
 
 4. Ejecutar el Programa: Una vez compilado el código, ejecuta el siguiente comando en el terminal:
-  ```bash
-  java  Main
-  ```
+   ```bash
+   java  Main
+   ```
 
 5. Jugar: El programa pedirá al jugador que ingrese intentos para adivinar el número. Sigue las instrucciones en pantalla para intentar adivinar el número secreto.
 
