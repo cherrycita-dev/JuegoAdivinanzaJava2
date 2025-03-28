@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int numeroSecreto = 0 //sin determinar
+        int numeroSecreto = generarNumeroSecreto(random);
         int intentosMaximos = 10;
 
         mostrarMensajeBienvenida(intentosMaximos);
@@ -21,27 +21,43 @@ public class Main {
     }
 
     private static int generarNumeroSecreto(Random random) {
-        return random.nextInt(100) + 1;//GENERA UN NÚMERO ENTRE 1 Y 100
+        return random.nextInt(100) + 1; // Genera un número entre 1 y 100
     }
 
     private static void mostrarMensajeBienvenida(int intentosMaximos) {
-        // Método vacío
+        System.out.println("¡Bienvenido al juego de adivinar el número!");
+        System.out.println("He generado un número entre 1 y 100. Tienes " + intentosMaximos + " intentos para adivinarlo.");
     }
 
     private static boolean jugar(Scanner scanner, int numeroSecreto, int intentosMaximos) {
-        // Método vacío
-        return false;
+        int intentos = 0;
+        boolean adivinado = false;
+
+        while (intentos < intentosMaximos && !adivinado) {
+            System.out.print("Introduce tu intento: ");
+            int intento = scanner.nextInt();
+            intentos++;
+
+            if (intento == numeroSecreto) {
+                adivinado = true;
+                mostrarMensajeVictoria(intentos);
+            } else {
+                darPista(intento, numeroSecreto);
+            }
+        }
+
+        return adivinado;
     }
 
     private static void mostrarMensajeVictoria(int intentos) {
-        // Método vacío
+        System.out.println("¡Felicidades! Has adivinado el número en " + intentos + " intentos.");
     }
 
     private static void mostrarMensajeDerrota(int numeroSecreto) {
-        // Método vacío
+        System.out.println("Lo siento, se te han acabado los intentos. El número era: " + numeroSecreto);
     }
 
     private static void darPista(int intento, int numeroSecreto) {
-        // Método vacío
+        // pendiente
+        }
     }
-}
